@@ -1,0 +1,66 @@
+body{
+    background-color: lightblue;
+}
+/*bakgrundsfärg*/
+p{
+    color: #5A5454;
+}
+/*text färg på alla textstycken*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #123987;
+}
+/*gör listan så den ser mer ut som en meny*/
+li {
+    float: left;
+}
+/*göra menyn horiontel*/
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*gör menyn större och snyggare */
+li a:hover {
+    background-color: #6892E8;
+}
+/*ändrar färg på rutan musen ligger på*/
+.active{
+    background-color: #155CE9;
+}
+/*klass som indikerar aktiv sida*/
+
+table,th,td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+/*skapar en snygg kant runt tabellen*/
+.tabelfärg1{
+    background-color: grey;
+    color: white;
+}
+/*klass som gör om färgerna i delar av tabellen*/
+.tabelfärg2{
+    background-color: black;
+    color: white;
+}
+/*klass som gör om färgerna i delar av tabellen*/
+th
+{
+    background-color: navy;
+    color: white;
+
+}
+/*byter färg på översta delen utav tabellen*/
+    
+    
+    
+    
+    
+    
